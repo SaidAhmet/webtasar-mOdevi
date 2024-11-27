@@ -1,0 +1,204 @@
+.container{
+    grid-template: 3,5,1fr;
+    /* background-color: #FFE8A1; */
+    background-color: #B5DDFB;
+
+}
+
+/* --------------- HEADER KISMI --------------- */
+
+.header{
+    /* inline veya inline block yaptığımda logo ile menuleri yanyana getiremediğim için flex kullanmayı tercih ettim */
+    display: grid;
+    grid-template: 3,1,1fr;
+    padding: 15px;
+    /* background-color: #B5DDFB; */
+    background-color: #FFE8A1;
+
+    border-radius: 8px;
+}
+
+.logo{
+    /* flex-direction: column; */
+    /* flex-direction: start; */
+    /* flex-grow: 50%; */
+    grid-column: 1/2;
+    padding-left: 50px;
+    /* padding-top: 25px; */
+
+    
+}
+
+.logo img{
+    width: 17%;
+    height: auto;
+    padding-top: 10px;
+}
+
+/* .logo :hover{
+    height: auto;
+    width: 25%;
+} */
+
+
+
+/* .logo :hover{
+    border: 5px solid black;
+    border-radius: 25px;
+} */
+
+
+.menu{
+    display: flex;
+    gap: 0;
+    /* list-style-type: none; */
+    /* flex-grow: 50%; */
+    grid-column-start: 2;
+    position: relative;
+    /* padding-left: 0; */
+    /* margin: 0; */
+    /* margin-top: 25px;
+    margin-left: 150px; */
+    padding-top: 5px;
+    padding-left: 350px;
+}
+
+#tarih{
+    padding-left: 6px;
+}
+
+
+
+.menu button{
+    height: 45px;
+    width: 150px;
+    border: 5px solid transparent;
+    background-color: inherit;
+}
+
+.menu button :hover{
+    background-color: #A8D5BA;
+    /* border-color:  azure; */
+    font-size: x-large;
+    text-shadow: 2px 2px gray;
+}
+
+.menu a{
+    text-decoration: none;
+    /* border: 45px solid transparent; */
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-top: 48px solid transparent;
+    border-bottom: 43px solid transparent;
+    transition: all 1s ease;
+    color: black;
+    font-size: large;
+}
+
+
+
+
+/* --------------- BODY NİN İLK KISMI --------------- */
+
+
+
+.ilkkisim{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    background-color: #fefae0;
+    border-radius: 8px;
+}
+
+.ilkkisim p{
+    text-align: justify;
+    text-indent: 50px;
+    padding-right: 70px;
+    padding-left: 25px;
+    padding-top: 0;
+    font-size: 25px;
+}
+
+.ilkkisim h1{
+    padding-left: 50px;
+    padding-bottom: 0;
+}
+
+.ilkkisim img{
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 10px;
+    height: 330px;
+    width: auto;
+}
+
+
+/* --------------- GALERİ KISMI --------------- */
+
+.galeri{
+    padding-top: 10px;
+    display: grid;
+    grid-template: 3,5,1fr;
+    gap: 10px;
+    
+}
+
+.galeri img{
+    height: 200px;
+    width: 330px;
+    border: 5px solid pink;
+    border-radius: 5px;
+}
+
+#item1{
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
+    height: auto;
+    width: auto;
+    /* padding-top: 50px; */
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BURASI KULLANILMIYOR NAVBARI LİSTE İLE YAPAMADIM İSTEDİĞİM GİBİ BUTONLARLA YAPIYORUM */
+
+/* .menu li{
+    display: inline; */
+    /* margin-left: 50px; */
+    /* padding: 7px; */
+    /* padding: 0; */
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    /* margin: 0; */
+    /* border: 5px solid black;
+    background-color: aquamarine;
+    margin: 25px 0px ;
+    padding: 25px 0px ;
+} */
+
+/* .menu li :hover , :active{
+    background-color: purple;
+} */
