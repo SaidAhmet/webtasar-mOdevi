@@ -246,9 +246,28 @@
 
 
 
+/* TARİH SAYFASI KISMI HEADER VE FOOTER AYNI  */
 
+.main-content p{
+    display: grid;
+    overflow: hidden;
 
+}
 
+.butons{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    border: 5px solid transparent;
+}
+
+.main-content div{
+    width: 100%;
+}
 
 
 
